@@ -19,7 +19,7 @@ html, body {
 .nav {
     height: 50px;
     width: 100%;
-    background-color: crimson;
+/*     background-color: crimson; */
     /*border-bottom: 2px solid black; */
     display: flex;
     align-items: center;
@@ -120,7 +120,7 @@ html, body {
 }
 
 .right img {
-    width: 80%;
+    width: 85%;
     height: 100%;
 }
 
