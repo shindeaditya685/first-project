@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+.main {
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.nav {
+    height: 50px;
+    width: 100%;
+    /* background-color: crimson;
+    border-bottom: 2px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5vw;
+}
+
+.nav-part2 {
+    display: flex;
+    gap: 3vw;
+    align-items: center;
+    
+}
+
+.logo {
+    display: flex;
+    gap: 1vw;
+    align-items: center;
+    /* background-color: crimson; */
+}
+
+.logo h2 {
+    /* font-size: 1.5vw; */
+    font-weight: 700;
+    /* padding: 1vw; */
+    /* align-content: space-between; */
+}
+
+
+.logo img {
+    width: 4vw;
+    font-weight: 700;  
+}
+
+
+.nav a {
+    font-size: 2vw;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+.nav a:hover {
+    color: #343434;
+}
+
+
+.content {
+    height: calc(100% - 50px);
+    width: 100%;
+    /* background-color: burlywood; */
+    display: flex;
+    position: relative;
+}
+
+.left {
+    height: 100%;
+    width: 60%;
+    padding: 2vw 5vw;
+}
+
+.left h1 {
+    font-size: 3.5vw;
+}
+
+.role {
+    font-size: 1.5vw;
+    font-weight: 600;
+}
+
+.content h2 {
+    font-size: 1.5vw;
+    padding: 2vw 0 1vw 0;
+}
+
+.content p {
+    font-size: 1.5vw;
+}
+
+.primary-btn {
+    font-size: 1.4vw;
+    margin-block: 2vw;
+    padding: 1vw;
+    background-color: #343434;
+    border: none;
+    border-radius: 5px;
+    color: #cfc8c8;
+    font-weight: 500;
+}
+
+.primary-btn:hover{
+    color: #fff;
+}
+
+.right {
+    height: 100%;
+    width: 40%;
+}
+
+.right img {
+    width: 80%;
+    height: 100%;
+}
+
+.nav i {
+    display: none;
+} 
+
+@media (max-width: 600px) {
+    .nav {
+        /* background-color: crimson; */
+        height: 80px;
+        padding: 0 6vw;
+    }
+    .nav i {
+        display: block;
+        font-weight: 700;
+        font-size: 9vw;
+    }
+
+    .nav-part2 a {
+        display: none;
+    }
+
+    .logo img {
+        width: 10vw;
+        font-weight: 700;  
+    }
+
+    .logo h2 {
+        font-size: 5vw;
+    }
+
+    .left h1 {
+        font-size: 10vw;
+        padding-top: 10px;
+    }
+
+    .role {
+        font-size: 5vw;
+        font-weight: 600;
+    }
+
+    .content {
+        height: calc(100% - 60px);
+        flex-direction: row;
+        /* background-color: burlywood; */
+        justify-content: space-evenly;
+    }
+
+    .content h2 {
+        font-size: 3vw;
+        padding-top: 20px ;
+    }
+
+    .content p {
+        font-size: 2.5vw;
+        padding: 10px;
+    }
+
+    .primary-btn {
+        font-size: 3vw;
+    }
+
+    .left {
+        /* background-color: burlywood; */
+        width: 100%;
+        height: 100%;
+        padding: 4vw 6vw;
+    }
+
+    .right {
+       display: none;
+    }
+
+    
+
+
+}
